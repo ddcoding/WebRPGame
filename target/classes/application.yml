@@ -1,0 +1,15 @@
+spring:
+# PROFILES
+  profiles:
+    active: dev
+# ROOT CONFIG
+  application:
+    name: game
+  datasource:
+    username: game
+    password: game
+    url: jdbc:postgresql://localhost:5432/game
+    type: com.zaxxer.hikari.HikariDataSource
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
